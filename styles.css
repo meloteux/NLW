@@ -9,11 +9,13 @@ ul{
 }
 
 body{
-	background-image: url(./assets/bg.jpg);
+	background-image: url(./assets/bg.png);
 	background-position: top center;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
-	background-color: #121214; 
+	/*background-color: #121214;*/
+	/*background-image: linear-gradient(90deg, #4d8500 0%, #262600 50.52%, #4d8500 100%);*/
+	/* background-image: linear-gradient(90deg, #262600 0%, #4d8500 50.52%, #262600 100%);*/
 }
 
 body * {
@@ -28,7 +30,7 @@ header {
 header div {
 	width: 120px;
 	margin: auto;
-	background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+	background-image: linear-gradient(90deg, #4d8500 0%, #4d8500 50.52%, #4d8500 100%);
 
 	border-radius: 50%;
 
@@ -60,13 +62,13 @@ main{
 
 section{
 	color: white;
-	background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+	background-image: linear-gradient(90deg, #4d8500 0%, #262600 50.52%, #4d8500 100%);
 	padding-top: 4px;
 	border-radius: 10px;
 }
 
 section div {
-	background-color: #2A2634;
+	background-color: #1b281a;
 	padding: 32px;
 	padding-top: 24px;
 	border-radius: 8px;
@@ -78,7 +80,7 @@ section h2 {
 
 section p {
 	letter-spacing: -0.18px;
-	color: #A1A1AA;
+	color: #969696;
 } 
 
 section ul {
@@ -99,12 +101,13 @@ section ul li:hover{
 .games-list img {
 	width: 90px;
 	border-radius: 8px;
+	border: 1px solid #4d8500;
 }
 
 .channel-list img {
 	border-radius: 50%;
 	width: 70px;
-	border: 1px solid #443E54;
+	border: 1px solid #4d8500;
 
 }
 
