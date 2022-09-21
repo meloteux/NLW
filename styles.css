@@ -47,7 +47,7 @@ header div img {
 	width: 100%;
 	border-radius: 50%;
 }
-div h2{
+main div h2{
 	text-align: center;
 	color: aliceblue;
 	font-size: 30px;
@@ -58,7 +58,7 @@ div h2{
 	font-family: 'Grenze Gotisch', cursiva;
 	text-shadow: 0.1em 0.1em 0.2em black
 }
-div h3{
+main div h3{
 	text-align: center;
 	color: rgb(255, 240, 240);
 	font-size: 20px;
