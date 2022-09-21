@@ -3,7 +3,27 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+div h2{
+	text-align: center;
+	color: aliceblue;
+	font-size: 30px;
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+	padding-top: 1px;
+	margin-top: 1px;
+	font-family: 'Grenze Gotisch', cursiva;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+div h3{
+	text-align: center;
+	color: rgb(255, 240, 240);
+	font-size: 20px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+	font-family: 'Grenze Gotisch', cursiva;
+	text-shadow: 0.1em 0.1em 0.2em black
+	}
 ul{
 	list-style: none;
 }
@@ -22,6 +42,7 @@ body * {
 header {
 	margin-top: 32px;
 	height: calc(120px + 32px);
+
 }
 
 header div {
@@ -33,6 +54,7 @@ header div {
 
 	display: flex;
 	padding: 4px;
+
 
 	transition: transform .3s;
 }
