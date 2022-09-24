@@ -18,6 +18,9 @@ body{
 body * {
 	font-family: 'Inter', sans-serif;
 }
+head div audio{
+	text-align: center;
+}
 
 header {
 	margin-top: 10px;
